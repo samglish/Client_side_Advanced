@@ -63,4 +63,5 @@ The effectiveness of tables decreases significantly when hash functions are comb
 <hr>
  
  * Different from Windows
- 
+ * `/etc/passwd` and `/etc/shadow`, harder than SAM files
+* 
