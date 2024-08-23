@@ -53,3 +53,4 @@ The effectiveness of tables decreases significantly when hash functions are comb
 * Windows, the most used OS
 * More and more secure but still vulnerable
 * Storage in a SAM (System Account Management) registry
+* Exception, Use of Active Directory (LDAP BDD)
