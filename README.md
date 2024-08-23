@@ -65,4 +65,4 @@ The effectiveness of tables decreases significantly when hash functions are comb
  * Different from Windows
  * `/etc/passwd` and `/etc/shadow`, harder than SAM files
  * Capture method using grub boot loaders
- * 
+ * Identify then crack
