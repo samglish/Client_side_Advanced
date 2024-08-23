@@ -42,3 +42,5 @@ A hash chain consists of "alternating" possible passwords and their correspondin
 
 If you now have a hash value, you can use the reduction function to test whether the hash value is part of one of the created hash chains. To do this, the reduction function is applied to the hash value. If the result of the function is one of the end points of the chain, then you have found the hash chain that contains the password for the existing hash value. In the most favorable case just described, this would be the penultimate password in the chain, which led to the last hash value in the chain. As a rule, however, you will not find a password directly in the first reduction step. Therefore, the reduction function(s) and the hash function must be repeatedly applied to the originally captured hash value. One can imagine this by trying to put the hash chain containing the captured hash value back together again, starting at the end. The moment the partially constructed hash chain has an endpoint stored in the rainbow table, you have found the complete hash chain and can extract the password in plain text.
 
+<img src="Side1.png" width="80%">
+<img src="Side1.png" width="80%">
