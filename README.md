@@ -54,3 +54,4 @@ The effectiveness of tables decreases significantly when hash functions are comb
 * More and more secure but still vulnerable
 * Storage in a SAM (System Account Management) registry
 * Exception, Use of Active Directory (LDAP BDD)
+* `C:\<systemroot>\repair & C:\> expand SAM uncompressedSAM`
