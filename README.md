@@ -24,5 +24,6 @@ Linux password
 
 <img src="Side1.png" width="90%">
 
+A `rainbow table` is in cryptanalysis, a data structure created in 2003 by Philippe Oechslin of EPFL1 to find a password from its fingerprint. It is an improvement of the time-memory tradeoffs proposed by Martin Hellman in the 1980.
 
 
