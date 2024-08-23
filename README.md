@@ -4,5 +4,11 @@ Ethical Hacking : Users password cracking
 Password cracking methods
 Password storage
 Rainbow tables
-Windows password 
+Windows password
 Linux password
+<hr>
+
+## Methods
+<hr>
+
+* The first will be to guess it.
