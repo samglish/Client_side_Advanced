@@ -76,3 +76,9 @@ The effectiveness of tables decreases significantly when hash functions are comb
  * Crunch
  * Hash-identifier
  * findmyhash
+
+ ## Johnny
+
+```bash
+jonny
+```
