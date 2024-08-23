@@ -12,3 +12,6 @@ Linux password
 <hr>
 
 * The first will be to guess it.
+* Dictionary
+* Brute force
+* Hybrid
