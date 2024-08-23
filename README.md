@@ -44,3 +44,7 @@ If you now have a hash value, you can use the reduction function to test whether
 
 <img src="Side2.png" width="80%">
 <img src="Side3.png" width="80%">
+
+## The salt
+
+The efficiency of tables decreases significantly when hash functions are combined with a salt.
