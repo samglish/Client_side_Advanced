@@ -6,7 +6,6 @@ Password storage
 Rainbow tables
 Windows password
 Linux password
-<hr>
 
 # Methods
 <hr>
@@ -18,4 +17,5 @@ Linux password
 
 # Password storage
 <hr>
+passwords are stored encrypted
 
