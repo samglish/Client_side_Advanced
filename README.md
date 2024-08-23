@@ -50,6 +50,10 @@ If you now have a hash value, you can use the reduction function to test whether
 The effectiveness of tables decreases significantly when hash functions are combined with a salt. In the context of a password system, the salt is a random component or counter that changes depending on the user. If two users have the same password, the salt prevents the hashes from being identical. Informally, the salt consists of an operation like this:
 
 `fingerprint = h(password + salt)`
+
+# Windows password
+<hr>
+
 * Windows, the most used OS
 * More and more secure but still vulnerable
 * Storage in a SAM (System Account Management) registry
