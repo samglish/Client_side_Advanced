@@ -72,4 +72,7 @@ The effectiveness of tables decreases significantly when hash functions are comb
 
  * Hashcat
  * chntpw
- * 
+ * Ophcrack
+ * Crunch
+ * Hash-identifier
+ * findmyhash
