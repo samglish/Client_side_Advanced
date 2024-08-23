@@ -8,10 +8,14 @@ Windows password
 Linux password
 <hr>
 
-## Methods
+# Methods
 <hr>
 
 * The first will be to guess it.
 * Dictionary
 * Brute force
 * Hybrid
+
+# Password storage
+<hr>
+
