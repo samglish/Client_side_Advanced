@@ -83,4 +83,4 @@ The effectiveness of tables decreases significantly when hash functions are comb
 ```bash
 johnny
 ```
-<img src="Johnny.png" width="80%">
+<img src="Johnny.png" width="100%">
