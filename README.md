@@ -85,4 +85,8 @@ johnny
 ```
 <img src="Johnny.png" width="100%">
 
-Show shadow file
+Show shadow file after Press attack to crack password
+
+<img src="Johnny1.png" width="100%">
+
+<img src="Johnny2.png" width="100%">
