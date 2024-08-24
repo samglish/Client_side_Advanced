@@ -85,7 +85,7 @@ johnny
 ```
 <img src="Johnny.png" width="100%">
 
-Show shadow then click on password attack to crack.
+Show shadow then click on `start new attack` to crack.
 
 <img src="Johnny1.png" width="100%">
 
