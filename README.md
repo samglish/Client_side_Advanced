@@ -84,3 +84,7 @@ The effectiveness of tables decreases significantly when hash functions are comb
 johnny
 ```
 <img src="Johnny.png" width="100%">
+
+Show shadow file
+
+<img src="Johnny1.png" width="100%">
