@@ -85,8 +85,10 @@ johnny
 ```
 <img src="Johnny.png" width="100%">
 
-Show shadow file after Press attack to crack password
+Show shadow then click on password attack to crack.
 
 <img src="Johnny1.png" width="100%">
+
+Here we see that the password has been cracked.
 
 <img src="Johnny2.png" width="100%">
