@@ -78,6 +78,7 @@ The effectiveness of tables decreases significantly when hash functions are comb
  * findmyhash
 
  ## Let's try in terminal
+ * Johnny
 
 ```bash
 johnny
