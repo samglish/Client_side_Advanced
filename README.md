@@ -514,7 +514,7 @@ If you still have no idea what just happened, try the following pages:
 * https://hashcat.net/wiki/#howtos_videos_papers_articles_etc_in_the_wild
 * https://hashcat.net/faq/
 ```
-### let's go to the hashcat folder
+### let's go to the hashcat folder to see some examples of hashes.
 
 ```bash
 cd /usr/share/hashcat/
