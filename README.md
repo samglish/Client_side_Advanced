@@ -514,12 +514,9 @@ If you still have no idea what just happened, try the following pages:
 * https://hashcat.net/wiki/#howtos_videos_papers_articles_etc_in_the_wild
 * https://hashcat.net/faq/
 ```
-### let's go to the hashcat folder to see some examples of hashes.
+### let's go to use hashcat-identifier
 
 ```bash
-cd /usr/share/hashcat/
-```
-```bash
-cd examples
+hashcat-identifier
 ```
 
