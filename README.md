@@ -519,4 +519,7 @@ If you still have no idea what just happened, try the following pages:
 ```bash
 cd /usr/share/hashcat/
 ```
+```bash
+cd examples
+```
 
