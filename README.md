@@ -516,3 +516,7 @@ If you still have no idea what just happened, try the following pages:
 ```
 ### let's go to the hashcat folder
 
+```bash
+cd /usr/share/hashcat/
+```
+
