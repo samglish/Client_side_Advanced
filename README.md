@@ -98,7 +98,8 @@ Here we see that the password has been cracked.
 hashcat --help
 ```
 Output
-```
+
+```bash
 hashcat (v6.1.1) starting...
 
 Usage: hashcat [options]... hash|hashfile|hccapxfile [dictionary|mask|directory]...
