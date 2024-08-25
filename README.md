@@ -99,7 +99,7 @@ Here we see that the password has been cracked.
 ```bash
 hashcat --help
 ```
-hash examples
+### hash examples
 
 ```bash
 
@@ -514,4 +514,5 @@ If you still have no idea what just happened, try the following pages:
 * https://hashcat.net/wiki/#howtos_videos_papers_articles_etc_in_the_wild
 * https://hashcat.net/faq/
 ```
+### let's go to the hashcat folder
 
