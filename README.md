@@ -94,3 +94,6 @@ Here we see that the password has been cracked.
 <img src="Johnny2.png" width="100%">
 
 ## View hashcat in terminal
+```bash
+hashcat --h
+```
