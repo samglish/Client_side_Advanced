@@ -92,3 +92,5 @@ Show shadow then click on `start new attack` to crack.
 Here we see that the password has been cracked.
 
 <img src="Johnny2.png" width="100%">
+
+## View hashcat in terminal
