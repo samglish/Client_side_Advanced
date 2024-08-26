@@ -95,7 +95,6 @@ Here we see that the password has been cracked.
 
 # hashcat
 
-
 ```bash
 hashcat --help
 ```
@@ -514,9 +513,104 @@ If you still have no idea what just happened, try the following pages:
 * https://hashcat.net/wiki/#howtos_videos_papers_articles_etc_in_the_wild
 * https://hashcat.net/faq/
 ```
-### let's go to use hashcat-identifier
+# let's go to use Hash-identifier
 
 ```bash
-hashcat-identifier
+hash-identifier
 ```
+Output
+```bash
+   #########################################################################
+   #     __  __                     __           ______    _____           #
+   #    /\ \/\ \                   /\ \         /\__  _\  /\  _ `\         #
+   #    \ \ \_\ \     __      ____ \ \ \___     \/_/\ \/  \ \ \/\ \        #
+   #     \ \  _  \  /'__`\   / ,__\ \ \  _ `\      \ \ \   \ \ \ \ \       #
+   #      \ \ \ \ \/\ \_\ \_/\__, `\ \ \ \ \ \      \_\ \__ \ \ \_\ \      #
+   #       \ \_\ \_\ \___ \_\/\____/  \ \_\ \_\     /\_____\ \ \____/      #
+   #        \/_/\/_/\/__/\/_/\/___/    \/_/\/_/     \/_____/  \/___/  v1.2 #
+   #                                                             By Zion3R #
+   #                                                    www.Blackploit.com #
+   #                                                   Root@Blackploit.com #
+   #########################################################################
+--------------------------------------------------
+ HASH: 
+```
+let's generate a hash on the MD5 site and paste it into the hash-identifier terminal
+<b>https://www.md5hashgenerator.com/</b>
+
+<img src="MD5.png">
+Msg : bonjour samuel
+MD5: 3615cdf80ebacda55dd2aa30dc4bebd0
+
+```bash
+   #########################################################################
+   #     __  __                     __           ______    _____           #
+   #    /\ \/\ \                   /\ \         /\__  _\  /\  _ `\         #
+   #    \ \ \_\ \     __      ____ \ \ \___     \/_/\ \/  \ \ \/\ \        #
+   #     \ \  _  \  /'__`\   / ,__\ \ \  _ `\      \ \ \   \ \ \ \ \       #
+   #      \ \ \ \ \/\ \_\ \_/\__, `\ \ \ \ \ \      \_\ \__ \ \ \_\ \      #
+   #       \ \_\ \_\ \___ \_\/\____/  \ \_\ \_\     /\_____\ \ \____/      #
+   #        \/_/\/_/\/__/\/_/\/___/    \/_/\/_/     \/_____/  \/___/  v1.2 #
+   #                                                             By Zion3R #
+   #                                                    www.Blackploit.com #
+   #                                                   Root@Blackploit.com #
+   #########################################################################
+--------------------------------------------------
+ HASH: 3615cdf80ebacda55dd2aa30dc4bebd0
+
+Possible Hashs:
+[+] MD5
+[+] Domain Cached Credentials - MD4(MD4(($pass)).(strtolower($username)))
+
+Least Possible Hashs:
+[+] RAdmin v2.x
+[+] NTLM
+[+] MD4
+[+] MD2
+[+] MD5(HMAC)
+[+] MD4(HMAC)
+[+] MD2(HMAC)
+[+] MD5(HMAC(Wordpress))
+[+] Haval-128
+[+] Haval-128(HMAC)
+[+] RipeMD-128
+[+] RipeMD-128(HMAC)
+[+] SNEFRU-128
+[+] SNEFRU-128(HMAC)
+[+] Tiger-128
+[+] Tiger-128(HMAC)
+[+] md5($pass.$salt)
+[+] md5($salt.$pass)
+[+] md5($salt.$pass.$salt)
+[+] md5($salt.$pass.$username)
+[+] md5($salt.md5($pass))
+[+] md5($salt.md5($pass))
+[+] md5($salt.md5($pass.$salt))
+[+] md5($salt.md5($pass.$salt))
+[+] md5($salt.md5($salt.$pass))
+[+] md5($salt.md5(md5($pass).$salt))
+[+] md5($username.0.$pass)
+[+] md5($username.LF.$pass)
+[+] md5($username.md5($pass).$salt)
+[+] md5(md5($pass))
+[+] md5(md5($pass).$salt)
+[+] md5(md5($pass).md5($salt))
+[+] md5(md5($salt).$pass)
+[+] md5(md5($salt).md5($pass))
+[+] md5(md5($username.$pass).$salt)
+[+] md5(md5(md5($pass)))
+[+] md5(md5(md5(md5($pass))))
+[+] md5(md5(md5(md5(md5($pass)))))
+[+] md5(sha1($pass))
+[+] md5(sha1(md5($pass)))
+[+] md5(sha1(md5(sha1($pass))))
+[+] md5(strtoupper(md5($pass)))
+--------------------------------------------------
+```
+## we are trying to crack the hash in the local database using the findmyhash tool
+
+```bash
+findmyhash  md5 -h 3615cdf80ebacda55dd2aa30dc4bebd0
+```
+
 
