@@ -652,4 +652,25 @@ chntpw -i SAM
 ```
 OUTPUT
 ```
+chntpw version 1.00 140201, (c) Petter N Hagen
+Hive <SAM> name (from header): <\SystemRoot\System32\Config\SAM>
+ROOT KEY at offset: 0x001020 * Subkey indexing type is: 686c <lh>
+File size 65536 [10000] bytes, containing 8 pages (+ 1 headerpage)
+Used for data: 315/32832 blocks/bytes, unused: 25/16064 blocks/bytes.
+
+
+
+<>========<> chntpw Main Interactive Menu <>========<>
+
+Loaded hives: <SAM>
+
+  1 - Edit user data and passwords
+  2 - List groups
+      - - -
+  9 - Registry editor, now with full write support!
+  q - Quit (you will be asked if there is something to save)
+
+
+What to do? [1] -> 
+```
 
