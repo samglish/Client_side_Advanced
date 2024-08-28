@@ -687,5 +687,34 @@ Press 1
 Please enter user number (RID) or 0 to exit: [3e9] 
 ```
 Copy RID 03e9 and paste in terminal
+```
+================= USER EDIT ====================
 
+RID     : 1001 [03e9]
+Username: Glish
+fullname: 
+comment : 
+homedir : 
+
+00000220 = Administrateurs (which has 2 members)
+
+Account bits: 0x0214 =
+[ ] Disabled        | [ ] Homedir req.    | [X] Passwd not req. | 
+[ ] Temp. duplicate | [X] Normal account  | [ ] NMS account     | 
+[ ] Domain trust ac | [ ] Wks trust act.  | [ ] Srv trust act   | 
+[X] Pwd don't expir | [ ] Auto lockout    | [ ] (unknown 0x08)  | 
+[ ] (unknown 0x10)  | [ ] (unknown 0x20)  | [ ] (unknown 0x40)  | 
+
+Failed login count: 0, while max tries is: 0
+Total  login count: 461
+
+- - - - User Edit Menu:
+ 1 - Clear (blank) user password
+(2 - Unlock and enable user account) [seems unlocked already]
+ 3 - Promote user (make user an administrator)
+ 4 - Add user to a group
+ 5 - Remove user from a group
+ q - Quit editing user, back to user select
+Select: [q] > 
+```
 
