@@ -686,5 +686,6 @@ Press 1
 
 Please enter user number (RID) or 0 to exit: [3e9] 
 ```
+Copy RID 03e9 and paste in terminal
 
 
