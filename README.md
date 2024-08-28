@@ -644,6 +644,12 @@ NOTE: This program is somewhat hackish! You are on your own!
 ```
 ### Let's go to the windows>system32 folder
 ```bash
-cd /media/samglish/D8CC0490CC046AD8/Windows/System32 
+cd /media/samglish/D8CC0490CC046AD8/Windows/System32/config 
+```
+after
+```bash
+chntpw -i SAM
+```
+OUTPUT
 ```
 
