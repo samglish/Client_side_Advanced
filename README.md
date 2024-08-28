@@ -673,4 +673,18 @@ Loaded hives: <SAM>
 
 What to do? [1] -> 
 ```
+Press 1
+```
+===== chntpw Edit User Info & Passwords ====
+
+| RID -|---------- Username ------------| Admin? |- Lock? --|
+| 01f4 | Administrateur                 | ADMIN  | dis/lock |
+| 01f7 | DefaultAccount                 |        | dis/lock |
+| 03e9 | Glish                          | ADMIN  |          |
+| 01f5 | Invit�                         |        |          |
+| 01f8 | WDAGUtilityAccount             |        | dis/lock |
+
+Please enter user number (RID) or 0 to exit: [3e9] 
+```
+
 
