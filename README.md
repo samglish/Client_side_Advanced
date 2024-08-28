@@ -642,4 +642,8 @@ See readme file on how to get to the registry files, and what they are.
 Source/binary freely distributable under GPL v2 license. See README for details.
 NOTE: This program is somewhat hackish! You are on your own!
 ```
+### Let's go to the windows>system32 folder
+```bash
+cd /media/samglish/D8CC0490CC046AD8/Windows/System32 
+```
 
