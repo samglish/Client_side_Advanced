@@ -618,4 +618,28 @@ Best tool to crack password easily by knowing SAM files
 ```bash
 chntpw
 ```
+OUTPUT
+```
+chntpw version 1.00 140201, (c) Petter N Hagen
+chntpw: change password of a user in a Windows SAM file,
+or invoke registry editor. Should handle both 32 and 64 bit windows and
+all version from NT3.x to Win8.1
+chntpw [OPTIONS] <samfile> [systemfile] [securityfile] [otherreghive] [...]
+ -h          This message
+ -u <user>   Username or RID (0x3e9 for example) to interactively edit
+ -l          list all users in SAM file and exit
+ -i          Interactive Menu system
+ -e          Registry editor. Now with full write support!
+ -d          Enter buffer debugger instead (hex editor), 
+ -v          Be a little more verbose (for debuging)
+ -L          For scripts, write names of changed files to /tmp/changed
+ -N          No allocation mode. Only same length overwrites possible (very safe mode)
+ -E          No expand mode, do not expand hive file (safe mode)
+
+Usernames can be given as name or RID (in hex with 0x first)
+
+See readme file on how to get to the registry files, and what they are.
+Source/binary freely distributable under GPL v2 license. See README for details.
+NOTE: This program is somewhat hackish! You are on your own!
+```
 
